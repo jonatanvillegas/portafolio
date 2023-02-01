@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio-Jonatan</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">JAV</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/104170313.jpg" alt="">
+            </div>
+            <h1>Jonatan Villegas</h1>
+            <h2>Desarrollador web Front - end</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href=""><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Jonatan Vilegas.</span> tengo la edad de 22 años me encanta la tecnologia etc</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        
+                        <li>
+                            <strong>Teléfono</strong>
+                            8222 3061
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            jv2208674@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Chontales-Juigalpa
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+               <a class="descarga" download="curriculum" href="">Descargar CV <i class="fa-solid fa-download"></i></a> 
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Next.js</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Prisma</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Floresmilda Días - Chontales-Juigalpa</h4>
+                        <span class="casa">Bachillerato</span>
+                        <span class="fecha">2015 - 2019</span>
+
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Técnico Especialista en programación </h4>
+                        <span class="casa">INATEC</span>
+                        <span class="fecha">2021 - 2022</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Curso de Programación Básica </h4>
+                        <span class="casa">Platzi</span>
+                        <span class="fecha">2022 </span><div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4> Introducción a la Programación con JavaScript </h4>
+                        <span class="casa">Itoo</span>
+                        <span class="fecha">2022 </span><div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Finalización de nivel de ingles Pre A1</h4>
+                        <span class="casa">DyEd</span>
+                        <span class="fecha">2023 </span><div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Soporte técnico </h4>
+                        <span class="casa">Colegio San Pablo</span>
+                        <span class="fecha">01-03-2022 - 28-06-2022</span>
+                        <p>Mantenimiento preventivo (Software y Hardware)
+                            Limpieza a equipos de cómputo (Hardware)</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Skiptracing</h4>
+                        <span class="casa">Freelancer</span>
+                        <span class="fecha">25-08-2021 – 15-01-2022</span>
+                        <p>Búsqueda de información de personas que pongan en
+                            venta sus propiedades en Estados Unidos por medio de
+                            sitios web (Remoto)
+                            </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Software developer</h4>
+                        <span class="casa">INATEC</span>
+                        <span class="fecha">02-10-2021 – 15-12-2021</span>
+                        <p>Implementación de lenguaje .Net y programa Visual Basic
+                            para la creación de un sistema para recursos humanos</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/cafeconleche.png" alt="">
+                    <div class="overlay">
+                        <h3>html - css</h3>
+                        <p><a href="https://cafeconleche.netlify.app/">cafeconleche</a> </p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/cotizador.png" alt="">
+                    <div class="overlay">
+                        <h3>React js </h3>
+                        <p><a href="https://unique-taiyaki-feed1e.netlify.app/">cotizador seguro</a> </p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/cripto.png" alt="">
+                    <div class="overlay">
+                        <h3>React js</h3>
+                        <p><a href="https://veterinaria01.netlify.app/">cripto</a> </p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/netflix.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p><a href="https://proyect-netflix.netlify.app/">netflix</a> </p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/pixel.png" alt="">
+                    <div class="overlay">
+                        <h3>html - css</h3>
+                        <p><a href="https://funny-sfogliatella-7e3ed5.netlify.app/">pixel</a> </p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/rock.png" alt="">
+                    <div class="overlay">
+                        <h3>html - css - js</h3>
+                        <p><a href="https://rock-edm-uwu.netlify.app/">rock</a> </p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/veterinaria.png" alt="">
+                    <div class="overlay">
+                        <h3>React js</h3>
+                        <p><a href="https://veterinaria01.netlify.app/">veterinaria</a> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
