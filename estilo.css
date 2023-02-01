@@ -338,7 +338,7 @@ html{
 }
 @keyframes trabajo {
     0%{width: 0%;}
-    100%{width: 80%;}
+    100%{width: 70%;}
 }
 
 .skills .skill .creatividad{
@@ -347,7 +347,7 @@ html{
 }
 @keyframes creatividad {
     0%{width: 0%;}
-    100%{width: 70%;}
+    100%{width: 99%;}
 }
 
 .skills .skill .dedicacion{
